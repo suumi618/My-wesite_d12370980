@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Yan's website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*基本排版與字型*/
+        body{
+            background: linear-gradient(to bottom,#f5f7fa,#c3cfe2);
+            color:#333;
+            line-height:1.6;
+        }
+    header{
+        background: linear-gradient(135deg,#4a90e2,#9013fe);
+        color:white;
+        text-align: center;
+        padding:40px 20px;
+        box-shadow:0 4px 20px rgba(0,0,0,0,2);
+    }
+    header h1{
+        margin-bottom:10px;
+        font-size:2.5em;
+        text-shadow:1px 1px 5px rgba(0,0,0,0,3);
+    }
+    header p{
+        font-size:1.2em;
+        color:#f0f0f0;
+    }
+    nav{
+        background-color: #333;
+        text-align: center;
+        padding: 15px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 2);
+    }
+    nav a{
+        color:white;
+        text-decoration: none;
+        padding: 12px 20px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border-radius: 6px;
+    }
+    nav a:hover{
+        background-color: #4a90e2;
+        transform: scale(1.05);
+    }
+    section{
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: 40px auto;
+        background: rgba(255,255,255,0.9);
+        border-radius: 15px;
+        box-shadow:0 8px 20px rgba(0,0,0,0,1);
+        transition:transform 0.3s ease;
+    }
+    section:hover{
+        transform:translateY(-5px);
+    }
+
+    img.profile{
+        width:200px;
+        border-radius: 50%;
+        display: block;
+        margin:20px auto;
+        border:5px solid #4a90e2;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 2);
+    }
+    h2{
+        color: #4a90e2;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    iframe{
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 2);
+    }
+    footer{
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        margin-top: 50px;
+        font-size: 0.9em;
+        letter-spacing: 0.5px;
+    }
+    /*漸層按鈕*/
+    .btn{
+        display: inline-block;
+        padding: 12px 25px;
+        background: linear-gradient(45deg,#4a90e2,#9013fe);
+        color: white;
+        text-decoration: none;
+        border-radius:50px;
+        font-weight: bold;
+        transition: all 0.4s ease;
+        margin: 10px 5px;
+    }
+    .btn:hover{
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 6px 20px rgba(0,0,0,0,3);
+    }
+    @media (max-width:768px){
+        header h1{font-size: 2em;}
+        section{padding: 30px 15px;}
+        nav a{padding: 10px 12px;display: block;margin: 5px 0;}
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Here's My Website</h1>
+        <p>Hello,I'm Yan.</p>
+    </header>
+    
+    <section id="home">
+        <h2>Here's my introduction!</h2>
+        <img src="my photo.jpg" width="300">
+        <p>Hi!I'm an artist from Taiwan. My area of expertise is color block illustration.And I like cosplay. </p>
+        <a href="https://www.facebook.com/lin.mi.su.597644" target="_blank">Facebook</a>
+    </section>
+    <section id="video">
+        <h2>My Favorate Music</h2>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">CLick</a>
+    </section>
+    <section id="mao">
+        <h2>My Workplace</h2>
+        <a href="https://maps.app.goo.gl/wBur3Z7wF5rfxCpPA"target="_blank" width="100%" height="300" style="border: 0;" allowfullscreen=""loading="lazy"></a>
+        <a href="https://maps.app.goo.gl/wBur3Z7wF5rfxCpPA" target="_blank">CLick </a> 
+    </section>
+    <footer>
+        <p>&copy;2025 D12370980's Website</p>
+    </footer>
+</body>
+</html>
+
+<!--portfolio.html-->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+ <meta charset="UTF-8">
+ <meta name="Works" content="width=device-width,initial-scale=1.0">
+ <title>Works</title>
+ <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Works</h1>
+        <p>My art and cosplay</p>
+    </header>
+
+<section>
+    <h2>Show You</h2>
+    <img src="luca01.jpg" alt="pic1" style="margin: 10px;border-radius: 12px; width: 100px;">
+    <img src="sanji01.jpg" alt="pic1" style="margin: 10px;border-radius: 12px;width: 100px;">
+    <img src="tochi01.jpg" alt="pic1" style="margin: 10px;border-radius: 12px;width: 100px;"><br>
+    <img src="cleric01.jpg" alt="pic1" style="margin: 10px;border-radius: 12px;width: 150px;">
+    <img src="boxer01.jpg" alt="pic1" style="margin: 10px;border-radius: 12px;width: 150px;">
+</section>
+<footer>
+    <p>&copy;2025 D12370980's Website</p>
+</footer>
+</body>
+</html>
+
+<!--contact.html-->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Works" content="width=device-width,initial-scale=1.0">
+    <title>Call Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Call Me</h1>
+        <p>Please use the form to contact Me</p>
+    </header>
+   
+    <section>
+        <h2>My Contact Information</h2>
+        <form action="#"method="post">
+            <label>Name:<input type="text"name="name" required></label><br><br>
+            <label>Emal:<input type="email" name="email"required></label><br><br>
+            <label>Message:<textarea name="Message"rows="5" required></textarea></label><br><br>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy;2025 D12370980's Website</p>
+    </footer>
+</body>
+</html>
